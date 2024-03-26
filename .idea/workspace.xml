@@ -5,6 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ca24f0a4-e8a3-4acd-9b57-515bfd1fdde4" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/css/apexcharts.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/apexcharts.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
