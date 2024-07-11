@@ -1,59 +1,20 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
-  <link rel="stylesheet" href="css/style.css">
+  <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>d3js test chart</title>
 </head>
 <body>
 
-<div id="chart"></div>
 
-<script src="js/main.js"></script>
-<script src="js/apexcharts.js"></script>
-<script>
-  const options = {
-    series: [44, 55, 13, 43, 22],
-    chart: {
-      width: 380,
-      type: 'pie',
-    },
-    labels: ['Team A', 'Team B', 'Team C', 'Team D', 'Team E'],
-    responsive: [{
-      breakpoint: 480,
-      options: {
-        chart: {
-          width: 200
-        },
-        legend: {
-          position: 'bottom'
-        }
-      }
-    }]
-  };
 
-  var chart = new ApexCharts(document.querySelector("#chart"), options);
-  chart.render();
 
-  //   $.getJSON('/dashboard/most-selling-parts', function (response) {
-  //     topSellingItems.updateOptions({
-  //         labels: response.labels
-  //     });
-  //     topSellingItems.updateSeries(response.series);
-  // });
-
-  chart.updateOptions({
-    // labels: ['Team One', 'Team Two', 'Team three'],
-  });
-  // chart.updateSeries([1, 2, 3]);
+<script src="https://cdnjs.cloudflare.com/ajax/libs/d3/7.9.0/d3.min.js"></script><script>
 
 </script>
 
+
 </body>
 </html>
-
-
-
-
-
